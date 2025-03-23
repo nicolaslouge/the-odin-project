@@ -4,7 +4,12 @@ body {
 }
 
 h1 {
-    color: cornflowerblue;
+    color: rgb(60, 120, 231);
+    text-align: center;
+}
+
+h2 {
+    margin-left: 10px;
 }
 
 a {
