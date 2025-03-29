@@ -1,0 +1,100 @@
+* {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    color: #F9FAF8;
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    flex:1;
+    align-items: center;
+    font-size: 24px;
+}
+
+.right-links {
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.elevator {
+    display: flex;
+    flex: 1;
+}
+
+.elevator-text-cta {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+
+.header-img {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.placeholder {
+    max-height: 400px;
+    max-width: 700px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sub-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.dark-bg {
+    background-color: #1F2937;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
